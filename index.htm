@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bill Devider</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1 class="main">Check Your Bill ?</h1>
+    <hr>
+    <div class="container">
+        <main>
+            <div class="bill">
+                <h2>Bill</h2>
+                <div class="amount"><span>₹</span><input type="number" id="money" placeholder="">
+                </div>
+                <div class="tip">
+                    <h3>Select Tip</h2>
+                    <div class="btns"> 
+                        <button class="tiptax" disabled>5%</button>
+                        <button class="tiptax" disabled>10%</button>
+                        <button class="tiptax" disabled>20%</button>
+                        <button class="tiptax" disabled>25%</button>
+                        <button class="tiptax" disabled>50%</button>
+                        <button class="tiptax" disabled>60%</button>
+                    </div>
+                    
+                        <input class="custumtip" type="text" placeholder="custum Tip" disabled>
+                        <h3>Number Of People</h3>
+                        <input class="custumtip noofpeople" type="text" placeholder="No Of People" disabled>
+                </div>
+                <button class="billgenrate" disabled>Genrate Bill</button>
+            </div>
+            <div class="finalbill">
+                <div class="t-amounts">
+                    <div class="tipbill">
+                        <h3>Tip Amount </h3><span class="Total-tip"></span>
+                    </div>
+                    <div class="tipbill">
+                        <h3>Total</h3><span class="totalAmount"></span>
+                    </div>
+                    <div class="tipbill">
+                        <h3>Each Person Bill</h3><span class="perpersonprice"></span>
+                    </div>
+                    <button class="resetbtn" disabled>Reset</button>
+
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+</body>
+
+</html>
